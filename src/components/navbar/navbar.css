@@ -1,0 +1,148 @@
+/* .t{
+    width: 60px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid red;
+    background-color: white;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.t-icon{
+    width: 20px;
+    height: 20px;     
+}
+
+.t-button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #999;
+    position: absolute;
+    cursor: pointer;
+} */
+
+/* 
+.n{
+    background-color: rgb(186, 197, 125);
+    position:fixed;
+    z-index: 999;
+    width: 100%;
+    height: 3rem;  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+.n-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    position: relative;
+    right: 100px;
+    
+}
+
+.list-item{
+    color: black;
+    list-style: none;
+    padding: 0px 5px;
+    
+    font-weight:500;
+    font-size: 23px;
+}
+
+.list-item:hover{
+    background-color: gray;
+} */
+
+
+
+
+
+
+/* .ul{
+    background-color: rgb(186, 197, 125);
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 3rem;  
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.li-items{
+    list-style: none;  
+    position: relative;
+    right: 200px;
+}
+
+.li-item{
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.li-item:hover{
+    background-color: gray;
+    border-radius: 8px;
+} */
+
+.n-items{
+    background-color: rgb(186, 197, 125);
+    border-radius: 8px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.ul{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 150px;
+    
+    /* align-items: center; */
+    /* background-color: red; */
+    list-style: none;
+    padding: 8px;
+    position: relative;
+    right: 100px;
+}
+
+.link{
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    /* border: 2px solid green; */
+    padding: 9px;
+    
+}
+
+.link:hover{
+    background-color: gray;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px){
+    .n-items{
+        display: none;
+    }
+}
